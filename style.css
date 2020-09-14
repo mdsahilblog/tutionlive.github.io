@@ -1,0 +1,504 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 15, 2020, 8:21:12 PM
+    Author     : User
+*/
+*{ margin:0; padding:0; font-family: sans-serif; text-decoration: none; list-style: none; }
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color:#ededed;
+    text-align: right;
+}
+
+.header{
+    background-color:black;
+    color:white;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.inner-header{
+    width:80%;
+    margin:auto;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.header-link{
+    display:block;
+    float:right;
+    font-size:16px;
+    height: 50px;
+    padding: 10px 16px;
+    margin-right: 0px;
+}
+
+.content{
+    min-height: 730px;
+}
+
+.banner-image{
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    text-align: left;
+    color:black ;
+    background: url('img/yo.png') no-repeat center;
+    background-size: cover;
+    height:calc(104vh - 80px);
+    background-color: rgb(107,179,255);
+   
+}
+
+.banner-image h2{
+    
+    padding-top: 8%;
+    
+    overflow:hidden;
+    
+    text-align: left;
+    padding-left: 5%;
+    
+    
+}
+.banner-image h4{
+    
+    padding-top: 1%;
+    
+    overflow:hidden;
+    
+    text-align: left;
+    padding-left: 5%;
+    
+}
+.inner-banner-image{
+    padding-top: 4%;
+    width:80%;
+    margin:auto;
+}
+
+.banner_content{
+    position: relative;
+    padding-top: 14%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-bottom: 12%;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.container{
+    width:100%;
+    margin-top:0%;
+    overflow:hidden;
+    height:auto;
+}
+.container10{
+   width:100%;
+   margin:auto;
+   overflow:hidden;
+   height:auto;
+}     
+.items{
+    width: 22%;
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float:left;
+    margin-left:9%;
+    margin-top:8px;
+}
+
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin: 0 auto 0 auto;
+}
+
+.caption{
+    color:#000;
+    padding:0px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+   background-color: #000;
+   color:#fff;
+   font-size:14px;
+   text-align: center;
+   padding-bottom: 1px;
+   padding-top: 0px;
+}
+
+.train{
+   text-align: center;
+   font-size: 16px;
+   color:black;
+   padding-top:0;
+   margin-top:0;
+}
+.trap{
+   text-align: center;
+   font-size: 16px;
+   color:black;
+   
+}
+
+.content1{
+    min-height: 80vh;
+}
+.back-image{
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    background: url('img/wall.png');
+    background-size: cover;
+    height:88vh;
+}
+
+.inner-back-image{
+    padding-top: 6%;
+    width:40% ;
+    margin:auto;
+}
+
+.back_content{
+    
+    padding-top: 7%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-top: 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    border-radius: 10px;
+    height:550px;
+    text-align: center;
+    font-size:18px;
+}
+.back_content input{
+   width:20%;
+   outline: none;
+   background: transparent;
+   color: #fff;
+   border-bottom: 1px solid;
+   border-top: 10px;
+   border-left: 0;
+   border-right: 0;
+}
+
+.button{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #FF5000;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+    -webkit-transition: all 0.5s;
+}
+.button:hover{
+    background: palevioletred;
+    color: black;
+}
+/*python*/
+
+.content2{
+    min-height: 480px;
+}
+
+.banner-image2{
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    text-align: right;
+    color: #fff;
+    background: url('img/yo.png') no-repeat center;
+    background-size: cover;
+    height:450px;
+    background-color: rgb(107,179,255);
+    width:100%;
+   
+}
+.banner-image2 h1{
+    padding-top: 40px;
+    padding-right: 250px;
+    
+}
+.backside{
+   background-color: rgba(0, 0, 0, 0.5);
+   max-width: 450px;  
+   
+    overflow:hidden;
+    border-radius: 10px;
+    height:410px;
+    text-align: center;
+    font-size:18px;
+    margin-left: 90px;
+    padding-top: 3%;
+     padding-bottom: 5%;
+    margin-top:-11%;
+}
+.backside input{
+   width:50%;
+   outline: none;
+   background: transparent;
+   color: #fff;
+   border-bottom: 1px solid;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+}
+.row{
+    width:100%;
+}
+
+.leftside,.rightside{
+    height:58.5vh;
+    width:100%;
+}
+
+.leftside{
+   background:transparent;
+   color:black;
+}
+
+.rightside{
+    background: transparent;
+}
+/*teacher*/
+
+.team-section{
+    overflow: hidden;
+    text-align:center;
+    padding:30px;
+    
+}
+
+.border{
+    display:block;
+    margin:auto;
+    width:160px;
+    height:3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 3px;
+}
+.ps a{
+    display:inline-block;
+    margin:0 30px;
+    width:250px;
+    height:250px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+
+.ps a img{
+    width:100%;   
+    transition: 0.4s all;
+}
+
+.ps a:hover > img{
+    filter:none;
+}
+
+nav{
+    background-color:black;
+    color:white;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+    width: 100%;
+}
+label.logo{
+    float: left;
+    height: 50px;
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 25px;   
+}
+nav ul li a{
+    color: blue;
+    font-size: 16px;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: blue;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px){
+    label.logo{
+        font-size: 24px;
+        padding-left: 30px;
+        margin-top: 2%;
+    }
+    nav ul li a{
+        font-size: 16px;
+        
+    }
+    .banner-image{
+        
+        text-align: left;
+        background-size: cover;
+        height:320px;
+        width: 100%;
+        
+    }
+    
+    .banner-image h2{
+        padding-top: 10%;
+        width:60%;
+        padding-left: 6px;        
+    }
+    
+    .banner-image  h2{
+        font-size: 14px;       
+    }
+    .banner-image  h4{
+        font-size: 12px;
+        width:60%;
+        padding-left: 4%;
+    }
+    
+    .train h1{   
+        font-size: 26px;        
+        margin-top:-95%;
+    }
+    .items{
+        width: 70%;        
+        margin-bottom: 20px;
+        margin-left:15%;
+        margin-right: 15%;
+        margin-top:8px;
+    }
+    .caption h2{
+        font-size: 20px;
+    }
+    .footer p{
+       
+        font-size:10px;
+        
+     }
+     .back_content{
+    
+        padding-top: 5%;
+        padding-bottom: 2%;
+        overflow:hidden;
+        margin-top: 22%;
+        
+        max-width: 300px;
+        border-radius: 10px;
+        height:550px;
+        text-align: center;
+        font-size:20px;
+    }
+    .back-image{
+        padding-bottom: 50px;
+        
+        background-size: cover;
+        height:650px;
+    }
+    .backside{
+        font-size:18px;
+        overflow:hidden;
+        max-width: 350px;
+         margin-left: 30px;
+         padding-top: 7%;
+          padding-bottom: 5%;
+         margin-top:60%;
+     } 
+    .container{
+        width:100%;
+        margin-top:107%;
+        overflow:hidden;
+        height:auto;
+    }
+    
+    .trap h1{
+        font-size: 28px;
+    }
+
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width:100%;
+        height:100vh;
+        background: #2c3e50;
+        top:50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+    .items{
+        width: 70%;        
+        margin-bottom: 20px;
+        margin-left:15%;
+        margin-right: 15%;
+        margin-top:8px;
+    }
+    
+}
